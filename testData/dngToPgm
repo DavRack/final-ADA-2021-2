@@ -1,0 +1,15 @@
+#!/bin/bash
+
+folderName="$1"
+
+images=$(ls $folderName/*.dng)
+
+echo $images
+
+for image in $images; do
+    newFileName="${image%.dng}.pgm"
+    convert "$image" "$newFileName"&
+done
+wait
+
+rm $images
