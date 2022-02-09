@@ -5,4 +5,5 @@ para ejecutar el código y ejecute el siguiente comando desde la terminal (proba
 
 python src/test.py
 
-El programa arrojará el tiempo en milisegundos que demora usando los dos algoritmos usados, llamados "slow" y "fast"
+El programa arrojará el tiempo en milisegundos que demora en computar cada caso de prueba para cada algoritmos
+los cuales llamamos "slow" y "fast"
